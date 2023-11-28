@@ -1,2 +1,2 @@
-local evm = require("evm")
-print()
+local ocvm = require("ocvm")
+print(ocvm._sha256("Hello World!"))
